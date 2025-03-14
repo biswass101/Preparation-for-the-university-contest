@@ -6,7 +6,7 @@ int main()
     int b = 0;
     for(int i = 0; i < 31; i++) {
         int bit = n & (1 << i);
-        if(bit != 0) b++;
+        if(bit != 0) b++; //number of set bits
     }
 
     cout << b << endl;
