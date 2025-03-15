@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+#include<bits/stdc++.h> //error on testcase 27
 using namespace std;
 bool getRes(int i, int n, vector<int>&v, int sum) {
     if(i >= n) return false;
